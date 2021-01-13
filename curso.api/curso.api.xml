@@ -6,10 +6,10 @@
     <members>
         <member name="M:curso.api.Controllers.UsuarioController.Logar(curso.api.Models.Usuarios.LoginViewModelInput)">
             <summary>
-            teste
+            Este serviço permite autenticar um usuário cadastrado e ativo.
             </summary>
-            <param name="loginViewModelInput"></param>
-            <returns></returns>
+            <param name="loginViewModelInput">View model do login</param>
+            <returns>Retornar status ok, dados do usuario e o token em caso</returns>
         </member>
     </members>
 </doc>
